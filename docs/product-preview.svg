@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Job Application Tracker product preview</title>
+  <desc id="desc">A dashboard with application metrics, an add-application form, and a job pipeline.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" x2="1">
+      <stop stop-color="#241d72"/><stop offset=".55" stop-color="#5145cd"/><stop offset="1" stop-color="#6574e5"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#18203b" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#f5f7fb"/>
+  <rect width="1200" height="170" fill="url(#hero)"/>
+  <text x="60" y="46" fill="#bbb5ff" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">CAREER PIPELINE</text>
+  <text x="60" y="94" fill="white" font-family="Arial,sans-serif" font-size="42" font-weight="700">Job Application Tracker</text>
+  <text x="60" y="126" fill="#e5e3ff" font-family="Arial,sans-serif" font-size="17">Every opportunity, follow-up, and outcome in one focused workspace.</text>
+  <rect x="1035" y="58" width="105" height="38" rx="19" fill="none" stroke="#ffffff88"/>
+  <text x="1087" y="82" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="14">API docs</text>
+
+  <g filter="url(#shadow)" font-family="Arial,sans-serif">
+    <g><rect x="60" y="145" width="340" height="86" rx="14" fill="white" stroke="#e4e7ec"/><text x="82" y="176" fill="#667085" font-size="14">Total</text><text x="82" y="211" fill="#172032" font-size="30" font-weight="700">24</text></g>
+    <g><rect x="430" y="145" width="340" height="86" rx="14" fill="white" stroke="#e4e7ec"/><text x="452" y="176" fill="#667085" font-size="14">Active</text><text x="452" y="211" fill="#172032" font-size="30" font-weight="700">17</text></g>
+    <g><rect x="800" y="145" width="340" height="86" rx="14" fill="white" stroke="#e4e7ec"/><text x="822" y="176" fill="#667085" font-size="14">Response rate</text><text x="822" y="211" fill="#172032" font-size="30" font-weight="700">33.3%</text></g>
+  </g>
+
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <rect x="60" y="255" width="350" height="370" rx="16" fill="white" stroke="#e4e7ec"/>
+    <text x="84" y="287" fill="#776bd8" font-size="11" font-weight="700" letter-spacing="1.5">NEW OPPORTUNITY</text>
+    <text x="84" y="318" fill="#172032" font-size="23" font-weight="700">Add an application</text>
+    <g fill="#344054" font-size="13" font-weight="700">
+      <text x="84" y="352">Company</text><text x="84" y="420">Role</text><text x="84" y="488">Status</text><text x="84" y="556">Next action</text>
+    </g>
+    <g fill="white" stroke="#d0d5dd">
+      <rect x="84" y="362" width="302" height="38" rx="8"/><rect x="84" y="430" width="302" height="38" rx="8"/><rect x="84" y="498" width="302" height="38" rx="8"/><rect x="84" y="566" width="302" height="38" rx="8"/>
+    </g>
+    <g fill="#98a2b3" font-size="13" font-weight="400">
+      <text x="98" y="386">Northstar Labs</text><text x="98" y="454">Backend Engineer</text><text x="98" y="522">Applied</text><text x="98" y="590">Follow up next week</text>
+    </g>
+  </g>
+
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <rect x="435" y="255" width="705" height="370" rx="16" fill="white" stroke="#e4e7ec"/>
+    <text x="460" y="287" fill="#776bd8" font-size="11" font-weight="700" letter-spacing="1.5">PIPELINE</text>
+    <text x="460" y="318" fill="#172032" font-size="23" font-weight="700">Your applications</text>
+    <rect x="834" y="282" width="280" height="38" rx="8" fill="white" stroke="#d0d5dd"/>
+    <text x="850" y="306" fill="#98a2b3" font-size="13">Search company or role</text>
+    <g>
+      <rect x="460" y="345" width="654" height="78" rx="11" fill="white" stroke="#e4e7ec"/>
+      <rect x="480" y="361" width="75" height="21" rx="10" fill="#fff4d6"/><text x="517" y="376" text-anchor="middle" fill="#8a5a00" font-size="10" font-weight="700">INTERVIEW</text>
+      <text x="480" y="403" fill="#172032" font-size="17" font-weight="700">Software Engineer</text><text x="670" y="403" fill="#667085" font-size="13">Maple Systems · Toronto</text>
+      <rect x="460" y="437" width="654" height="78" rx="11" fill="white" stroke="#e4e7ec"/>
+      <rect x="480" y="453" width="61" height="21" rx="10" fill="#eef2ff"/><text x="510" y="468" text-anchor="middle" fill="#4238a6" font-size="10" font-weight="700">APPLIED</text>
+      <text x="480" y="495" fill="#172032" font-size="17" font-weight="700">API Developer</text><text x="635" y="495" fill="#667085" font-size="13">Harbour Tech · Remote</text>
+      <rect x="460" y="529" width="654" height="78" rx="11" fill="white" stroke="#e4e7ec"/>
+      <rect x="480" y="545" width="50" height="21" rx="10" fill="#dcfae6"/><text x="505" y="560" text-anchor="middle" fill="#087443" font-size="10" font-weight="700">OFFER</text>
+      <text x="480" y="587" fill="#172032" font-size="17" font-weight="700">Automation Engineer</text><text x="675" y="587" fill="#667085" font-size="13">Cedar Labs · Ottawa</text>
+    </g>
+  </g>
+</svg>
